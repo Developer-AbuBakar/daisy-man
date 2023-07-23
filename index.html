@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-thame="cupcake">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
         theme: {
           extend: {
            backgroundImage: {
-            "hero-bg"
+            "hero-bg": "url('./images/yellow-bg.jpg')"
            }
           }
         }
@@ -94,9 +94,9 @@
       <!-- banner section -->
       <section>
         <div
-          class="hero min-h-[calc(100vh-66px)]"
+          class="hero min-h-[calc(100vh-66px)] bg-hero-bg"
           style="
-            background-image: url(./images/yellow-bg.jpg);">
+            background-image:;">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
@@ -106,7 +106,7 @@
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button class="btn btn-primary">Get Started</button>
+              <button class="btn">Shop Now</button>
             </div>
           </div>
         </div>
